@@ -1,0 +1,154 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Overpass', sans-serif;
+}
+main{
+    background-color: hsl(216, 12%, 8%);
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.hidden{
+    display: none !important;
+}
+.Rate{
+    display: block;
+    text-align:left;
+    background-color: hsl(213, 19%, 18%);
+    width:450px;
+    height:450px;
+    overflow: hidden;
+    border-radius: 35px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.star{
+    background-color: hsl(214, 13%, 25%);
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 35px 36px;
+}
+h1{
+color:white;
+font-size:35px;
+padding-left: 30px;
+}
+.feedback{
+    font-size: 17px;
+    color: hsl(217, 12%, 63%);
+    font-family: inherit;
+    padding: 12px 30px;
+    line-height: 1.5;
+}
+.num-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+.num{
+    background-color: hsl(212, 16%, 21%);
+    color: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 2px 0 0;
+}
+.num:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.num:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    width: 400px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;  
+    padding-top: 5px;
+}
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.second{
+    text-align: center;
+}
+.return{
+    background-color: hsl(212, 16%, 21%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+    padding:5px 0 0 0;
+
+}
+.arrow{
+    color:hsl(25, 97%, 53%);
+    text-decoration: none;
+    font-size: 25px;
+}
+.thankU-img{
+    text-align: center;
+}
+.thanks{
+    width: 40%;
+    height: 40%;
+    margin: 0px 20px 10px 0;
+}
+.selection{
+    padding: 10px 0;
+    background-color: hsl(212, 16%, 21%);
+    border-radius: 30px;
+    margin: 0 100px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 38px;
+    color: hsl(25, 97%, 53%);
+}
+.tribute{
+    padding:35px 0 10px 0;
+}
+.thankU{
+    font-size: 17px;
+    color: hsl(217, 12%, 63%);
+    padding: 5px 35px;
+    line-height: 1.5;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color:rgb(191, 191, 191);
+  }
+
+  .attribution a {
+    color: hsl(25, 97%, 53%);
+    text-decoration: none;
+  }

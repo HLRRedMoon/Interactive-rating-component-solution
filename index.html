@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <article class="Rate"><!-- Rating state start -->
+      <div id="original" class="main-card ">
+        <header class="star">
+      <img src="./images/icon-star.svg" alt="star">
+        </header>
+    <h1 class="question">How did we do?</h1>
+    <p class="feedback">Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+      <section class="num-row">
+    <button class="num">1</button>
+    <button class="num">2</button>
+    <button class="num">3</button>
+    <button class="num">4</button>
+    <button class="num">5</button>
+      </section>
+  <section class="sub">
+    <button class="submit">SUBMIT</button>
+  </section>
+  </div><!-- Rating state end -->
+  <section id="thanksCard" class="second hidden"><!-- Thank you state start -->
+    <figure class="thankU-img">
+      <div class="return"><a class="arrow" href="./index.html">←</a></div>
+    <img src="./images/illustration-thank-you.svg" alt="thank u" class="thanks">
+  </figure>
+  <div class="selection">You selected <span class="selecte"></span> out of 5</div>
+    <h1 class="tribute">Thank you!</h1>
+    <p class="thankU">We appreciate you taking the time to give a rating. If you ever need more support,
+      don't hesitate to get in touch!</p>
+  </section><!-- Thank you state end -->
+  </article>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/HLRRedMoon">HLR</a>.
+  </footer>
+</main>
+<script src="./script.js"></script>
+</body>
+
+</html>
